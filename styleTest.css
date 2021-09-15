@@ -1,0 +1,142 @@
+body{
+    font-family: 'Red Hat Text', sans-serif;
+}
+.container{    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    background-color: grey;    
+    position: relative;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.number{        
+    /* font-size: 8rem; */
+    font-size: 96px;
+    color: hsl(345, 95%, 68%);
+    position: absolute;
+    /* padding: 0 50px; */
+    background-color: #34364f;   
+    transition: all 0.7s;
+
+    /* overflow: hidden;
+    height: 50%; */
+
+    text-align: center;
+    width: 100%;
+}
+.old.supNum{    
+    /* top:7px;         */
+    /* top:0px;         */
+    top:10px;        
+}
+.old.infNum{    
+    /* top:-68px;        */
+    /* top:-75px;        */
+    top:-65px;       
+}
+.new.supNum{
+    /* top:160px;      */
+    /* top:153px;      */
+    top:163px;     
+}
+.new.infNum{
+    /* top:-221px;      */
+    /* top:-228px;      */
+    top:-218px;     
+}
+.moving.supNum{    
+    /* top: 7px; */
+    /* top: 0px; */
+    top: 10px;
+}
+.moving.infNum{
+    /* top:-68px; */
+    /* top:-75px; */
+    top:-65px;
+}
+
+
+.l1{
+    width: 150px;
+    height: 150px;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 8px;
+    position: relative;
+}
+/* .l1::before,.l1::after{
+    content:'';
+    background-color: #1a1a24;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+.l1::before{
+    transform: translate(-7px, 69px);
+}
+.l1::after{
+    transform: translate(144px, 69px);
+} */
+.circleLeft{
+    background-color: #1a1a24;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 50%;
+    transform: translate(-7px, -6px);
+    z-index: 10;
+}
+.circleRight{
+    background-color: #1a1a24;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    margin-top: 50%;
+    transform: translate(7px, -6px);
+    z-index: 10;
+}
+.sup{
+    height: 50%;
+    background-color: #34364f;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 1px solid #1a1a24;
+    /* para cover de opacidad: */
+    overflow: hidden;
+    position: relative;
+}
+.inf{
+    height: 50%;
+    background-color: #34364f;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 8px 0 #1a1a24;
+
+    overflow: hidden;
+    position: relative;
+}
+.sup::after{
+    content: '';
+    position:absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0 0 0 / 25%);
+    z-index: 5;
+}

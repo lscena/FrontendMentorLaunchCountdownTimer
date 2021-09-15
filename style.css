@@ -328,7 +328,12 @@ main{
         flex: 1 0 4rem;
     }
     .description{
-        font-size: 10px;
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 350px){
+    .description{
+        font-size: 6px;
     }
 }
 /* Counter - OUT */

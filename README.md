@@ -23,11 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
-![finished challenge screenshot](https://github.com/lscena/LaunchCountdownTimer/blob/main/screenshot.png?raw=true)
+![finished challenge screenshot](https://github.com/lscena/FrontendMentorLaunchCountdownTimer/blob/main/screenshot.png?raw=true)
 
 ### Links
 
-- Live Site URL: [Live site URL](https://lscena.github.io/LaunchCountdownTimer/)
+- Live Site URL: [Live site URL](https://lscena.github.io/FrontendMentorLaunchCountdownTimer/)
 
 ## My process
 
